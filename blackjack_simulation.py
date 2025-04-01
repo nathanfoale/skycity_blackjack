@@ -4,7 +4,6 @@ import numpy as np
 import plotly.graph_objects as go
 import random
 
-# === Streamlit Setup ===
 st.set_page_config(
     page_title="Blackjack Simulator",
     layout="centered",  # switch from "wide" to "centered"
@@ -25,7 +24,6 @@ st.markdown("""
         }
     </style>
 """, unsafe_allow_html=True)
-
 # === Sidebar Parameters ===
 initial_bankroll = st.sidebar.number_input("Initial Bankroll ($)", 1000, 1000000, 100000, step=1000)
 min_bet = st.sidebar.number_input("Minimum Bet ($)", 10, 500, 100, step=10)
