@@ -1,2 +1,2 @@
-# Crown Blackjack Simulator
-# skycity_blackjack
+# Skycity Blackjack Simulator
+
